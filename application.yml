@@ -1,6 +1,6 @@
 spring:
   application:
-    name: greeting-service
+    name: hello-world
 management:
   endpoints:
     web:
@@ -9,4 +9,4 @@ management:
         - '*'
 hello-world:
   greeting: "Ola"
-  default-value: "Dev"
+  default-value: "Mundo"
